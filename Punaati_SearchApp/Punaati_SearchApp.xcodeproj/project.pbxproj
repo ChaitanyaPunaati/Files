@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371FCE1B27CEBFEC00C0C919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371FCE1A27CEBFEC00C0C919 /* AppDelegate.swift */; };
+		371FCE1D27CEBFEC00C0C919 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371FCE1C27CEBFEC00C0C919 /* SceneDelegate.swift */; };
+		371FCE1F27CEBFEC00C0C919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371FCE1E27CEBFEC00C0C919 /* ViewController.swift */; };
+		371FCE2227CEBFEC00C0C919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371FCE2027CEBFEC00C0C919 /* Main.storyboard */; };
+		371FCE2427CEBFEE00C0C919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371FCE2327CEBFEE00C0C919 /* Assets.xcassets */; };
+		371FCE2727CEBFEE00C0C919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371FCE2527CEBFEE00C0C919 /* LaunchScreen.storyboard */; };
+		371FCE3227CEBFEE00C0C919 /* Punaati_SearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371FCE3127CEBFEE00C0C919 /* Punaati_SearchAppTests.swift */; };
+		371FCE3C27CEBFEE00C0C919 /* Punaati_SearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371FCE3B27CEBFEE00C0C919 /* Punaati_SearchAppUITests.swift */; };
+		371FCE3E27CEBFEE00C0C919 /* Punaati_SearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371FCE3D27CEBFEE00C0C919 /* Punaati_SearchAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		371FCE2E27CEBFEE00C0C919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371FCE0F27CEBFEC00C0C919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 371FCE1627CEBFEC00C0C919;
+			remoteInfo = Punaati_SearchApp;
+		};
+		371FCE3827CEBFEE00C0C919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371FCE0F27CEBFEC00C0C919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 371FCE1627CEBFEC00C0C919;
+			remoteInfo = Punaati_SearchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		371FCE1727CEBFEC00C0C919 /* Punaati_SearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Punaati_SearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		371FCE1A27CEBFEC00C0C919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		371FCE1C27CEBFEC00C0C919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		371FCE1E27CEBFEC00C0C919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		371FCE2127CEBFEC00C0C919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		371FCE2327CEBFEE00C0C919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		371FCE2627CEBFEE00C0C919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		371FCE2827CEBFEE00C0C919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371FCE2D27CEBFEE00C0C919 /* Punaati_SearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Punaati_SearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		371FCE3127CEBFEE00C0C919 /* Punaati_SearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Punaati_SearchAppTests.swift; sourceTree = "<group>"; };
+		371FCE3727CEBFEE00C0C919 /* Punaati_SearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Punaati_SearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		371FCE3B27CEBFEE00C0C919 /* Punaati_SearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Punaati_SearchAppUITests.swift; sourceTree = "<group>"; };
+		371FCE3D27CEBFEE00C0C919 /* Punaati_SearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Punaati_SearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		371FCE1427CEBFEC00C0C919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371FCE2A27CEBFEE00C0C919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371FCE3427CEBFEE00C0C919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		371FCE0E27CEBFEC00C0C919 = {
+			isa = PBXGroup;
+			children = (
+				371FCE1927CEBFEC00C0C919 /* Punaati_SearchApp */,
+				371FCE3027CEBFEE00C0C919 /* Punaati_SearchAppTests */,
+				371FCE3A27CEBFEE00C0C919 /* Punaati_SearchAppUITests */,
+				371FCE1827CEBFEC00C0C919 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		371FCE1827CEBFEC00C0C919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				371FCE1727CEBFEC00C0C919 /* Punaati_SearchApp.app */,
+				371FCE2D27CEBFEE00C0C919 /* Punaati_SearchAppTests.xctest */,
+				371FCE3727CEBFEE00C0C919 /* Punaati_SearchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		371FCE1927CEBFEC00C0C919 /* Punaati_SearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				371FCE1A27CEBFEC00C0C919 /* AppDelegate.swift */,
+				371FCE1C27CEBFEC00C0C919 /* SceneDelegate.swift */,
+				371FCE1E27CEBFEC00C0C919 /* ViewController.swift */,
+				371FCE2027CEBFEC00C0C919 /* Main.storyboard */,
+				371FCE2327CEBFEE00C0C919 /* Assets.xcassets */,
+				371FCE2527CEBFEE00C0C919 /* LaunchScreen.storyboard */,
+				371FCE2827CEBFEE00C0C919 /* Info.plist */,
+			);
+			path = Punaati_SearchApp;
+			sourceTree = "<group>";
+		};
+		371FCE3027CEBFEE00C0C919 /* Punaati_SearchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				371FCE3127CEBFEE00C0C919 /* Punaati_SearchAppTests.swift */,
+			);
+			path = Punaati_SearchAppTests;
+			sourceTree = "<group>";
+		};
+		371FCE3A27CEBFEE00C0C919 /* Punaati_SearchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				371FCE3B27CEBFEE00C0C919 /* Punaati_SearchAppUITests.swift */,
+				371FCE3D27CEBFEE00C0C919 /* Punaati_SearchAppUITestsLaunchTests.swift */,
+			);
+			path = Punaati_SearchAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		371FCE1627CEBFEC00C0C919 /* Punaati_SearchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371FCE4127CEBFEE00C0C919 /* Build configuration list for PBXNativeTarget "Punaati_SearchApp" */;
+			buildPhases = (
+				371FCE1327CEBFEC00C0C919 /* Sources */,
+				371FCE1427CEBFEC00C0C919 /* Frameworks */,
+				371FCE1527CEBFEC00C0C919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Punaati_SearchApp;
+			productName = Punaati_SearchApp;
+			productReference = 371FCE1727CEBFEC00C0C919 /* Punaati_SearchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		371FCE2C27CEBFEE00C0C919 /* Punaati_SearchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371FCE4427CEBFEE00C0C919 /* Build configuration list for PBXNativeTarget "Punaati_SearchAppTests" */;
+			buildPhases = (
+				371FCE2927CEBFEE00C0C919 /* Sources */,
+				371FCE2A27CEBFEE00C0C919 /* Frameworks */,
+				371FCE2B27CEBFEE00C0C919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371FCE2F27CEBFEE00C0C919 /* PBXTargetDependency */,
+			);
+			name = Punaati_SearchAppTests;
+			productName = Punaati_SearchAppTests;
+			productReference = 371FCE2D27CEBFEE00C0C919 /* Punaati_SearchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		371FCE3627CEBFEE00C0C919 /* Punaati_SearchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371FCE4727CEBFEE00C0C919 /* Build configuration list for PBXNativeTarget "Punaati_SearchAppUITests" */;
+			buildPhases = (
+				371FCE3327CEBFEE00C0C919 /* Sources */,
+				371FCE3427CEBFEE00C0C919 /* Frameworks */,
+				371FCE3527CEBFEE00C0C919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371FCE3927CEBFEE00C0C919 /* PBXTargetDependency */,
+			);
+			name = Punaati_SearchAppUITests;
+			productName = Punaati_SearchAppUITests;
+			productReference = 371FCE3727CEBFEE00C0C919 /* Punaati_SearchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		371FCE0F27CEBFEC00C0C919 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					371FCE1627CEBFEC00C0C919 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					371FCE2C27CEBFEE00C0C919 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 371FCE1627CEBFEC00C0C919;
+					};
+					371FCE3627CEBFEE00C0C919 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 371FCE1627CEBFEC00C0C919;
+					};
+				};
+			};
+			buildConfigurationList = 371FCE1227CEBFEC00C0C919 /* Build configuration list for PBXProject "Punaati_SearchApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 371FCE0E27CEBFEC00C0C919;
+			productRefGroup = 371FCE1827CEBFEC00C0C919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				371FCE1627CEBFEC00C0C919 /* Punaati_SearchApp */,
+				371FCE2C27CEBFEE00C0C919 /* Punaati_SearchAppTests */,
+				371FCE3627CEBFEE00C0C919 /* Punaati_SearchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		371FCE1527CEBFEC00C0C919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371FCE2727CEBFEE00C0C919 /* LaunchScreen.storyboard in Resources */,
+				371FCE2427CEBFEE00C0C919 /* Assets.xcassets in Resources */,
+				371FCE2227CEBFEC00C0C919 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371FCE2B27CEBFEE00C0C919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371FCE3527CEBFEE00C0C919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		371FCE1327CEBFEC00C0C919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371FCE1F27CEBFEC00C0C919 /* ViewController.swift in Sources */,
+				371FCE1B27CEBFEC00C0C919 /* AppDelegate.swift in Sources */,
+				371FCE1D27CEBFEC00C0C919 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371FCE2927CEBFEE00C0C919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371FCE3227CEBFEE00C0C919 /* Punaati_SearchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371FCE3327CEBFEE00C0C919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371FCE3C27CEBFEE00C0C919 /* Punaati_SearchAppUITests.swift in Sources */,
+				371FCE3E27CEBFEE00C0C919 /* Punaati_SearchAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		371FCE2F27CEBFEE00C0C919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 371FCE1627CEBFEC00C0C919 /* Punaati_SearchApp */;
+			targetProxy = 371FCE2E27CEBFEE00C0C919 /* PBXContainerItemProxy */;
+		};
+		371FCE3927CEBFEE00C0C919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 371FCE1627CEBFEC00C0C919 /* Punaati_SearchApp */;
+			targetProxy = 371FCE3827CEBFEE00C0C919 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		371FCE2027CEBFEC00C0C919 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				371FCE2127CEBFEC00C0C919 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		371FCE2527CEBFEE00C0C919 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				371FCE2627CEBFEE00C0C919 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		371FCE3F27CEBFEE00C0C919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		371FCE4027CEBFEE00C0C919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		371FCE4227CEBFEE00C0C919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Punaati_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Punaati_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Punaati-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		371FCE4327CEBFEE00C0C919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Punaati_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Punaati_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Punaati-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		371FCE4527CEBFEE00C0C919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Punaati-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Punaati_SearchApp.app/Punaati_SearchApp";
+			};
+			name = Debug;
+		};
+		371FCE4627CEBFEE00C0C919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Punaati-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Punaati_SearchApp.app/Punaati_SearchApp";
+			};
+			name = Release;
+		};
+		371FCE4827CEBFEE00C0C919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Punaati-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Punaati_SearchApp;
+			};
+			name = Debug;
+		};
+		371FCE4927CEBFEE00C0C919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Punaati-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Punaati_SearchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		371FCE1227CEBFEC00C0C919 /* Build configuration list for PBXProject "Punaati_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371FCE3F27CEBFEE00C0C919 /* Debug */,
+				371FCE4027CEBFEE00C0C919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		371FCE4127CEBFEE00C0C919 /* Build configuration list for PBXNativeTarget "Punaati_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371FCE4227CEBFEE00C0C919 /* Debug */,
+				371FCE4327CEBFEE00C0C919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		371FCE4427CEBFEE00C0C919 /* Build configuration list for PBXNativeTarget "Punaati_SearchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371FCE4527CEBFEE00C0C919 /* Debug */,
+				371FCE4627CEBFEE00C0C919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		371FCE4727CEBFEE00C0C919 /* Build configuration list for PBXNativeTarget "Punaati_SearchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371FCE4827CEBFEE00C0C919 /* Debug */,
+				371FCE4927CEBFEE00C0C919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 371FCE0F27CEBFEC00C0C919 /* Project object */;
+}
